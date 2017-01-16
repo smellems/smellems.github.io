@@ -1,0 +1,75 @@
+<ul id="wb-tphp">
+<li class="wb-slc">
+<a class="wb-sl" href="#wb-cont">Skip to main content</a>
+</li>
+<li class="wb-slc visible-sm visible-md visible-lg">
+<a class="wb-sl" href="#wb-info">Skip to "About this site"</a>
+</li>
+</ul>
+<header role="banner">
+<div id="wb-bnr">
+<div id="wb-bar">
+<div class="container">
+<div class="row">
+<section id="wb-lng" class="visible-md visible-lg">
+<h2>Language selection</h2>
+<ul class="text-right">
+
+
+  {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
+  {% for post in posts %}
+    <li><a lang="{{ post.lang }}" hreflang="{{ post.lang }}" href="{{ post.url | prepend: site.baseurl }}">{{ post.lang }}</a></li>
+  {% endfor %}
+
+  {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+  {% for page in pages %}
+    <li><a lang="{{ page.lang }}" hreflang="{{ page.lang }}" href="{{ page.url | prepend: site.baseurl }}">{{ page.lang }}</a></li>
+  {% endfor %}
+
+</ul>
+</section>
+<section class="wb-mb-links col-xs-12 visible-sm visible-xs" id="wb-glb-mn">
+<h2>Search and menus</h2>
+<ul class="pnl-btn list-inline text-right">
+<li><a href="#mb-pnl" title="Search and menus" aria-controls="mb-pnl" class="overlay-lnk btn btn-sm btn-default" role="button"><span class="glyphicon glyphicon-search"><span class="glyphicon glyphicon-th-list"><span class="wb-inv">Search and menus</span></span></span></a></li>
+</ul>
+<div id="mb-pnl"></div>
+</section>
+</div>
+</div>
+</div>
+<div class="container">
+<div class="row">
+<div id="wb-sttl" class="col-md-8">
+<a href="https://github.com/canada-ca">
+<span>Canada-ca<span class="wb-inv">, </span><small>Collaborative open source projects led by the Government of Canada</small></span>
+</a>
+</div>
+<section id="wb-srch" class="col-md-4 visible-md visible-lg">
+<h2>Search</h2>
+<form action="https://google.ca/search" method="get" role="search" class="form-inline">
+<div class="form-group">
+<label for="wb-srch-q">Search website</label>
+<input id="wb-srch-q" class="form-control" name="q" type="search" value="" size="27" maxlength="150">
+<input type="hidden" name="q" value="site:wet-boew.github.io OR site:github.com/wet-boew/">
+</div>
+<button type="submit" id="wb-srch-sub" class="btn btn-default">Search</button>
+</form>
+</section>
+</div>
+</div>
+</div>
+<span data-trgt="mb-pnl" class="wb-menu hide"></span>
+</header>
+<main role="main" property="mainContentOfPage" class="container">
+<h1 id="wb-cont" property="name">{{ site.title[page.lang] }}</h1>
+
+      <div>
+        {% assign pages=site.pages | where:"lang", page.lang %}
+        {% for my_page in pages %}
+          {% if my_page.title %}
+          <a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+          {% endif %}
+        {% endfor %}
+      </div>
+
