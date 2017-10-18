@@ -1,68 +1,62 @@
-<ul id="wb-tphp">
-<li class="wb-slc">
-<a class="wb-sl" href="#wb-cont">Skip to main content</a>
-</li>
-<li class="wb-slc visible-sm visible-md visible-lg">
-<a class="wb-sl" href="#wb-info">Skip to "About this site"</a>
-</li>
-</ul>
-<header role="banner">
-<div id="wb-bnr">
-<div id="wb-bar">
-<div class="container">
-<div class="row">
-<section id="wb-lng" class="visible-md visible-lg">
-<h2>Language selection</h2>
-<ul class="text-right">
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+  <a class="navbar-brand" href="#">smellems</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
+  <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About</a>
+      </li>
+      
+      {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
+      {% for post in posts %}
+        <li><a lang="{{ post.lang }}" hreflang="{{ post.lang }}" href="{{ post.url | prepend: site.baseurl }}">{{ post.lang }}</a></li>
+      {% endfor %}
 
-  {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
-  {% for post in posts %}
-    <li><a lang="{{ post.lang }}" hreflang="{{ post.lang }}" href="{{ post.url | prepend: site.baseurl }}">{{ post.lang }}</a></li>
-  {% endfor %}
+      {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+      {% for page in pages %}
+        <li><a lang="{{ page.lang }}" hreflang="{{ page.lang }}" href="{{ page.url | prepend: site.baseurl }}">{{ page.lang }}</a></li>
+      {% endfor %}
+      
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
 
-  {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
-  {% for page in pages %}
-    <li><a lang="{{ page.lang }}" hreflang="{{ page.lang }}" href="{{ page.url | prepend: site.baseurl }}">{{ page.lang }}</a></li>
-  {% endfor %}
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container">
+        <h1 class="display-3">smellems</h1>
+        <p>Open source software</p>
+        <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+      </div>
+    </div>
 
-</ul>
-</section>
-<section class="wb-mb-links col-xs-12 visible-sm visible-xs" id="wb-glb-mn">
-<h2>Search and menus</h2>
-<ul class="pnl-btn list-inline text-right">
-<li><a href="#mb-pnl" title="Search and menus" aria-controls="mb-pnl" class="overlay-lnk btn btn-sm btn-default" role="button"><span class="glyphicon glyphicon-search"><span class="glyphicon glyphicon-th-list"><span class="wb-inv">Search and menus</span></span></span></a></li>
-</ul>
-<div id="mb-pnl"></div>
-</section>
-</div>
-</div>
-</div>
-<div class="container">
-<div class="row">
-<div id="wb-sttl" class="col-md-8">
-<a href="https://github.com/canada-ca">
-<span>Canada-ca<span class="wb-inv">, </span><small>Collaborative open source projects led by the Government of Canada</small></span>
-</a>
-</div>
-<section id="wb-srch" class="col-md-4 visible-md visible-lg">
-<h2>Search</h2>
-<form action="https://google.ca/search" method="get" role="search" class="form-inline">
-<div class="form-group">
-<label for="wb-srch-q">Search website</label>
-<input id="wb-srch-q" class="form-control" name="q" type="search" value="" size="27" maxlength="150">
-<input type="hidden" name="q" value="site:wet-boew.github.io OR site:github.com/wet-boew/">
-</div>
-<button type="submit" id="wb-srch-sub" class="btn btn-default">Search</button>
-</form>
-</section>
-</div>
-</div>
-</div>
-<span data-trgt="mb-pnl" class="wb-menu hide"></span>
-</header>
-<main role="main" property="mainContentOfPage" class="container">
-<h1 id="wb-cont" property="name">{{ site.title[page.lang] }}</h1>
+    <div class="container">
+      <!-- Example row of columns 
+      <div class="row">
+        <div class="col-md-4">
+          <h2>Heading</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+          <h2>Heading</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+        </div>
+        ...
+      </div> -->
+
+      <h1>{{ site.title[page.lang] }}</h1>
 
       <div>
         {% assign pages=site.pages | where:"lang", page.lang %}
@@ -72,4 +66,3 @@
           {% endif %}
         {% endfor %}
       </div>
-
