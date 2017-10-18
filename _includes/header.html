@@ -34,7 +34,7 @@
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
       <div class="container">
-        <h1 class="display-3">smellems</h1>
+        <h1 class="display-3">{{ site.title[page.lang] }}</h1>
         <p>Open source software</p>
         <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
       </div>
@@ -55,8 +55,6 @@
         </div>
         ...
       </div> -->
-
-      <h1>{{ site.title[page.lang] }}</h1>
 
       <div>
         {% assign pages=site.pages | where:"lang", page.lang %}
