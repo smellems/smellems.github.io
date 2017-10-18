@@ -1,21 +1,10 @@
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title[page.lang] | escape }}{% endif %}</title>
-  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description[page.lang] }}{% endif %}">
-
-  <!--[if gte IE 9 | !IE ]><!-->
-  <!-- <link href="{{ site.baseurl }}/wet-boew/assets/favicon.ico" rel="icon" type="image/x-icon"> -->
-  <link rel="stylesheet" href="{{ site.baseurl }}/wet-boew/css/theme.min.css">
-  <!--<![endif]-->
-  <!--[if lt IE 9]>
-  <!-- <link href="{{ site.baseurl }}/wet-boew/assets/favicon.ico" rel="shortcut icon" /> -->
-  <link rel="stylesheet" href="{{ site.baseurl }}/wet-boew/css/ie8-theme.min.css" />
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-  <script src="{{ site.baseurl }}/wet-boew/js/ie8-wet-boew.min.js"></script>
-  <![endif]-->
-  <noscript><link rel="stylesheet" href="{{ site.baseurl }}/wet-boew/css/noscript.min.css" /></noscript>
-
+    <title>smellems</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description[page.lang] }}{% endif %}">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 </head>
