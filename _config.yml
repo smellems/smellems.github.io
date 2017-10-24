@@ -16,6 +16,9 @@ description:
 index:
   en:
   fr: accueil.html
+language:
+  en: English
+  fr: Français
 feed:
   en: /feed.xml
   fr: /flux.xml
