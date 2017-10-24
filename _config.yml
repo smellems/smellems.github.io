@@ -8,8 +8,8 @@ title:
   en: smellems
   fr: smellems
 description:
-  en: Write an awesome description for your new site here. You can edit this line in _config.yml.
-  fr: Écrivez une super description de votre nouveau site ici. Vous pouvez modifier cette ligne dans _config.yml.
+  en: Support for open source software and open standards in Gatineau, Québec, Ottawa, Ontario.
+  fr: Support pour logiciels libres et normes ouvertes à Gatineau, Québec, Ottawa, Ontario.
 index:
   en:
   fr: accueil.html
