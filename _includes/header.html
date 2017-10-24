@@ -7,11 +7,18 @@
   <div class="collapse navbar-collapse" id="navbarsExampleDefault">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="./">{{ site.home[page.lang] }} <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">About</a>
-      </li>      
+        <a class="nav-link disabled" href="#">{{ site.about[page.lang] }}</a>
+      </li>
+      <!-- for menu ? -->
+      {% assign pages=site.pages | where:"lang", page.lang %}
+      {% for my_page in pages %}
+        {% if my_page.title %}
+        <a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+        {% endif %}
+      {% endfor %} 
     </ul>
 
     <ul class="navbar-nav float-right">      
@@ -32,12 +39,11 @@
   </div>
 </nav>
 
-    <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
       <div class="container">
         <h1 class="display-3">{{ site.title[page.lang] }}</h1>
-        <p>Open source software</p>
-        <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+        <h2>{{ site.subtitle[page.lang] }}</h2>
+        <p><a class="btn btn-primary btn-lg" href="#" role="button">{{ site.learnmore[page.lang] }} &raquo;</a></p>
       </div>
     </div>
 
@@ -57,11 +63,3 @@
         ...
       </div> -->
 
-      <div>
-        {% assign pages=site.pages | where:"lang", page.lang %}
-        {% for my_page in pages %}
-          {% if my_page.title %}
-          <a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
-          {% endif %}
-        {% endfor %}
-      </div>

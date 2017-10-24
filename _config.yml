@@ -1,5 +1,3 @@
-# Welcome to Jekyll!
-#
 # This config file is meant for settings that affect your whole blog, values
 # which you are expected to set up once and rarely need to edit after that.
 # For technical reasons, this file is *NOT* reloaded automatically when you use
@@ -9,23 +7,33 @@
 title:
   en: smellems
   fr: smellems
-email: your-email@smellems.com
 description:
-  en: Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
-  fr: Écrivez une super description de votre nouveau site ici. Vous pouvez modifier cette ligne dans _config.yml. Elle apparaîtra dans la balise meta description (pour les résultats sur Google) et dans le fil RSS feed.xml.
+  en: Write an awesome description for your new site here. You can edit this line in _config.yml.
+  fr: Écrivez une super description de votre nouveau site ici. Vous pouvez modifier cette ligne dans _config.yml.
 index:
   en:
   fr: accueil.html
 language:
   en: English
   fr: Français
-feed:
-  en: /feed.xml
-  fr: /flux.xml
+home:
+  en: Home
+  fr: Accueil
+about:
+  en: About
+  fr: À propos
+subtitle:
+  en: Open Source Software & Open Standards
+  fr: Logiciels libres & normes ouvertes
+learnmore:
+  en: Learn more
+  fr: En savoir plus
+
+email: info@smellems.com
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://smellems.github.io" # the base hostname & protocol for your site
 twitter_username: smellems
-github_username:  smellems
+github_username: smellems
 
 # Build settings
 markdown: kramdown
