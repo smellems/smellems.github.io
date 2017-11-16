@@ -5,8 +5,8 @@
 
 # Site settings
 title:
-  en: smellems
-  fr: smellems
+  en: smellems Solutions
+  fr: smellems Solutions
 description:
   en: Support for open source software and open standards in Gatineau, Québec, Ottawa, Ontario.
   fr: Support pour logiciels libres et normes ouvertes à Gatineau, Québec, Ottawa, Ontario.
@@ -19,9 +19,15 @@ language:
 home:
   en: Home
   fr: Accueil
+home_link:
+  en: index.html
+  fr: accueil.html
 about:
   en: About
   fr: À propos
+about_link:
+  en: about.html
+  fr: apropos.html
 subtitle:
   en: Open Source Software & Open Standards
   fr: Logiciels libres & normes ouvertes

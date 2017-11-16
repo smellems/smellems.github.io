@@ -6,11 +6,11 @@
 
   <div class="collapse navbar-collapse" id="navbarsExampleDefault">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="/">{{ site.home[page.lang] }} <span class="sr-only">(current)</span></a>
+      <li class="nav-item {% if page.ref == 'index' %}active{% endif %}">
+        <a class="nav-link" href="/{{ site.home_link[page.lang] }}">{{ site.home[page.lang] }}{% if page.ref == 'index' %}&nbsp;<span class="sr-only">(current)</span>{% endif %}</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#">{{ site.about[page.lang] }}</a>
+      <li class="nav-item {% if page.ref == 'about' %}active{% endif %}">
+        <a class="nav-link" href="/{{ site.about_link[page.lang] }}">{{ site.about[page.lang] }}{% if page.ref == 'about' %}&nbsp;<span class="sr-only">(current)</span>{% endif %}</a>
       </li>
       <!-- for menu ? -->
       {% assign pages=site.pages | where:"lang", page.lang %}
@@ -43,23 +43,9 @@
       <div class="container">
         <h1 class="display-3">{{ site.title[page.lang] }}</h1>
         <h2>{{ site.subtitle[page.lang] }}</h2>
-        <p><a class="btn btn-primary btn-lg" href="#" role="button">{{ site.learnmore[page.lang] }} &raquo;</a></p>
+        <p><a class="btn btn-primary btn-lg" href="/{{ site.about_link[page.lang] }}" role="button">{{ site.learnmore[page.lang] }} &raquo;</a></p>
       </div>
     </div>
 
     <div class="container">
-      <!-- Example row of columns 
-      <div class="row">
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-        </div>
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-        </div>
-        ...
-      </div> -->
 
