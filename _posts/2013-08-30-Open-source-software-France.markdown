@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Open Source Software in France"
-ref: histoire
+ref: oss-france
 date: 2013-08-30 00:00
 categories: b
 lang: en
