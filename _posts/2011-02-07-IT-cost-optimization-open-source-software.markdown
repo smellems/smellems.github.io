@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "IT Cost Optimization through Open Source Software"
+title: "IT Cost Optimization Through Open Source Software"
 ref: optimization
 date: 2011-02-07 09:30
 categories: b

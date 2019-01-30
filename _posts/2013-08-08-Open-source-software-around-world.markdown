@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Open source software use around the world"
+title: "Open Source Software Use Around the World"
 ref: utilisation
 date: 2013-08-08 00:00
 categories: b

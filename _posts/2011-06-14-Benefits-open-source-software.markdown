@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Benefit of open source software"
+title: "Benefits of Open Source Software"
 ref: benifits
 date: 2011-06-14 09:00
 categories: b

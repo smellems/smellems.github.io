@@ -1,0 +1,17 @@
+---
+layout: post
+title: "Blueprint 2020"
+ref: bp2020
+date: 2014-07-20 00:00
+categories: b
+lang: en
+---
+
+(Needs Translation)
+
+Le gouvernement sud-coréen veut [s'affranchir de sa dépendance vis-à-vis des solutions propriétaires](http://www.open-source-guide.com/Actualites/Coree-du-sud-d-ici-2020-le-gouvernement-veut-se-liberer-des-os-proprietaires).  Comme le gouvernement du Canada, la Corée du sud a dû mettre à jour les systèmes d'exploitation de ses employés, qui utilisaient encore Windows XP, pour passer à Windows 7.  Selon le site de Microsoft, la fin du support pour Windows 7 est le 2020-01-14.   Le gouvernement sud-coréen s'est donné comme objectifs de passer à un système d'exploitation open source.  En ce préparant d'avance, ils espèrent pouvoir faire la migration sans problème.
+
+En avril dernier, un « plan de dynamisation des logiciels open source » a été déposé.  L'objectif ? « Créer un environnement informatique qui ne dépende pas d'un système d'exploitation particulier et établir un écosystème open source domestique grâce à une coopération entre secteurs public et privé.  Suite à ça, la Corée du sud à invité à Séoul des représentants de  la France et de la commune néerlandaise de Ede pour une [discussion sur leurs expériences avec utilisation des logiciels libres](http://www.open-source-guide.com/Actualites/Logiciels-libres-la-coree-du-sud-s-inspire-de-la-france-et-des-pays-bas).  Le ministère de l'intérieur  met particulièrement l'accent sur les économies réalisées grâce à l'adoption de logiciels libres.  Par exemple, le ministère a migré en 2008 de la solution de messagerie propriétaire Outlook/Exchange de Microsoft vers la messagerie libre Thunderbird/OBM pour ses 200 000 adresses et ils estiment que la facture était 5 fois moins onéreuse, pour toute la durée de vie, qu'une solution propriétaire.  La Gendarmerie nationale estime quant à elle que le coût du cycle de vie des systèmes d'exploitation a été réduit de 40%.   La commune néerlandaise de Ede déclare que ses coûts informatiques sont 24% plus bas que ceux de ses pairs en conséquence de l'adoption de nombreuses solutions open source comme: LibreOffice, Firefox, TYPO3, MySQL, PostgreSQL, Nagios, Asterisk et Linux.  Donc, bravo à la Corée du sud qui se donne un plan pour l'utilisation de logiciels libres.
+Et le Canada?
+
+Beaucoup de pays ont pris position, souvent en faveur, de l'utilisation de logiciels libres.  Le gouvernement du Canada n'a pas de position officiel sur le sujet.  Toute les initiative pour clarifier la situation ne sont pas allé bien loin.  Ils font présentement une grande campagne (Objectif 2020) sur l'avenir de la fonction publique.  Selon moi, l'utilisation de formats de données standards et de logiciels open source ne prend pas assez de place dans le [volet technologies](http://www.clerk.gc.ca/fra/feature.asp?pageId=378#toc6).  On parle de Services partagés Canada (SPC), d'un système de courriels, d'un annuaire amélioré, d'Accès Wi-Fi et de 2.0.  Mais ce qui devrait être plus important, c'est quelles technologies (logiciels) devraient être utilisées.  Sinon, on vas ce retrouver avec un système Outlook/Exchange hébergé sur un nuage qui n'est pas géré par SPC.  Euh..?

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Obstacles to the adoption of open source software"
+title: "Obstacles to the Adoption of Open Source Software"
 ref: obstacles
 date: 2011-01-12 10:21
 categories: b

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Canadian organizations look to open source software"
+title: "Canadian Organizations Look to Open Source Software"
 ref: canorgs
 date: 2011-01-19 14:30
 categories: b
