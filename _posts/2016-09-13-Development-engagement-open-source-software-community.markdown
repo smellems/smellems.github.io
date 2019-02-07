@@ -2,7 +2,7 @@
 layout: post
 title: "Development and Engagement of the Open Source Software Community"
 ref: devEngageCommunity
-date: 2016-07-05 00:00
+date: 2016-09-13 00:00
 categories: b
 lang: en
 ---
