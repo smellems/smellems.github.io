@@ -57,7 +57,7 @@ This question has come up often, “Why keep Elgg”? My answer...“because we 
 
 The biggest criticism is that the community is not strong, but it still keeps moving forward. Since the community is not very large, there is an opportunity for the GCTools team to contribute to development and influence the direction. I think other platforms like Drupal, Odoo, NextCloud could be good, but unlike Elgg, the focus of these communities is not digital collaboration. The solution should not be to develop it ourselves from scratch.
 
-## Open source software software suite for the GC
+## Open source software suite for the GC
 
 I wish we were already there - that we had simplified the GCtools by removing several features and had never stopped working on the Elgg 2 update. Once that would have been done we could have gone ahead with our users and added features through other independent open source software, but grouped by a single user (Single Sign-on) and a portal. And that's when it gets really interesting!
 
