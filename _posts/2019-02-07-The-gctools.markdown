@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The GCTools"
+title: "My Vision for the GCTools"
 ref: gctools
 date: 2019-02-06 00:00
 categories: b

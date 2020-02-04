@@ -11,12 +11,12 @@ For the past 2 years and 5 months, I have been on secondment at the Treasury Boa
 
 Beyond my work on the GCTools, I think I have been able to make a difference for the use of open source software and open standards in the GC. The GCTools team was the perfect place to work with all the other TBS office of the chief information officer (CIO) employees! It was also the perfect time to be at TBS and influence the GC's IM/IT (digital) direction, with the arrival of a new CIO, Alex Benay. Thanks to Chris Allison for giving me the opportunity to do this work at TBS!
 
-I don’t want to rewrite everything I have done in detail, because they can be found in [previous](https://smellems.github.io/b/2016/07/05/Development-engagement-open-source-software-community.html) [blogs](https://open.canada.ca/en/blog/open-source-software-and-open-standards-government-canada), such as: the [Introduction to the Open First Whitepaper](https://github.com/canada-ca/Open_First_Whitepaper/blob/master/en/1_Introduction.md), and the [Chief Technology Officer (CTO) blog](https://open.canada.ca/en/blog/open-foundation-digital-government). But I made a list with links... Not bad.
+I don't want to rewrite everything I have done in detail, because they can be found in [previous](https://smellems.github.io/b/2016/07/05/Development-engagement-open-source-software-community.html) [blogs](https://open.canada.ca/en/blog/open-source-software-and-open-standards-government-canada), the [Introduction to the Open First Whitepaper](https://github.com/canada-ca/Open_First_Whitepaper/blob/master/en/1_Introduction.md), and the [Chief Technology Officer (CTO) blog](https://open.canada.ca/en/blog/open-foundation-digital-government). But I made a list with links.. Not bad.
 
 - 2016-09 - Start working at TBS with GCTools team
 - 2016-10 - Participate in CSC [Mental Health App Challenge]((https://github.com/smellems/cscmhapp))
 - 2017-04 - [Host GCTools Hackathon](https://www.pscp.tv/GCcollab/)
-- 2017-07 - Crowdsource writing of "Two Pager" BN for CIO to ask for ressources dedicated to open source software
+- 2017-07 - Writing of "Two Pager" BN for CIO to ask for ressources dedicated to open source software
 - 2017-10 - Start [Open First Whitepaper](https://github.com/canada-ca/Open_First_Whitepaper) on Github
 - 2017-10 - Discussion panel 1 at the Canada School of Public Service (CSPS) - [Open Source Software and Open Standards in Public Administration](https://www.csps-efpc.gc.ca/events/oss/index-eng.aspx)
 - 2017-11 - [My blog](https://ouvert.canada.ca/fr/blogue/logiciels-libres-normes-ouvertes-au-gouvernement-du-canada) on Open Government Portal
@@ -31,17 +31,21 @@ I don’t want to rewrite everything I have done in detail, because they can be 
 - 2018-08 - Present at Open Source Summit North America in Vancouver - [First presentation](https://events.linuxfoundation.org/wp-content/uploads/2017/11/BoF-Using-OSS-to-Build-the-Digital-Workspace-for-the-Government-of-Canada-S%C3%A9bastien-Lemay-Treasury-Board-of-Canada-Secretariat.pdf) - [Second presentation](https://events.linuxfoundation.org/wp-content/uploads/2017/11/Open-Standards-and-Open-Source-Software-in-the-Government-of-Canada-S%C3%A9bastien-Lemay-Treasury-Board-of-Canada-Secretariat.pdf)
 - 2018-09 - *Publication of the [GC Digital Standards](https://www.canada.ca/en/government/publicservice/modernizing/government-canada-digital-standards.html)
 - 2018-09 - *[Open First Day](https://canada-ca.github.io/ofd-joep/en/open-first-day-agenda.html)
+- 2018-10 - Writing the [Guides](https://github.com/canada-ca/open-source-logiciel-libre#open-source-software) for using open source software, publishing open source code and contributing to open source software communities.
 - 2018-12 - *Publication of [Directive on the management of IT](https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=15249#claC.2.3.8) with mandatory procedures for enterprise architecture.
 - 2018-12 - *Publication of [Digital Operations Strategic Plan: 2018-2022](https://www.canada.ca/en/government/system/digital-government/digital-operations-strategic-plan-2018-2022.html)
-- 2019-01 - Lead [active development of the ORE](https://github.com/canada-ca/ore-ero/projects/1) in collaboration with the City of Montréal
+- 2019-01 - Lead active development of the [Open Ressource Exchange](https://github.com/canada-ca/ore-ero/) in collaboration with the City of Montréal
+- 2019-02 - End of my secondment at TBS with GCTools team
 
 \* Not directly responsible but I contributed to the content or organization
 
 The first Open Whitepaper is currently in the final stages of approvals and should be published soon (I hope). TBS now has a team (Guillaume Charest) working on the open source software file. When I arrived, there was no one officially. I leave him a lot of pressure to continue the necessary work to clarify the legal and procurement side. Of course I'm not going to disappear, I'm simply going back to Canadian Heritage and I'm going to continue to be active in the community.
 
+**Update**: In January 2020, TBS published the [Open Frist Whitepaper](https://www.canada.ca/en/government/system/digital-government/open-source-software/open-first-whitepaper.html) and the Guides for [Using Open Source Software](https://www.canada.ca/en/government/system/digital-government/open-source-software/guide-for-using-open-source-software.html), [Publishing Open Source Code](https://www.canada.ca/en/government/system/digital-government/open-source-software/guide-for-publishing-open-source-code.html) and [Contributing to Open Source Software](https://www.canada.ca/en/government/system/digital-government/open-source-software/guide-for-contributing-to-open-source-software.html).
+
 ## An active community
 
-There has always been a community of open source software users in the GC who promote these solutions in their respective departments. I encourage you to continue, even if sometimes it’s discouraging! Point to the Directives and Guidance and say that this is the direction that TBS wants for the whole GC.
+There has always been a community of open source software users in the GC who promote these solutions in their respective departments. I encourage you to continue, even if sometimes it's discouraging! Point to the Directives and Guidance and say that this is the direction that TBS wants for the whole GC.
 
 I would also like to draw attention to the fact that the discussions we held at the CSPS were organized by the community, without the official support of a department. I was in a café in Ottawa, with Guillaume and Gabriel Cossette, and we just decided that we were going to do it, find people interested in helping us with micro-missions and we were on our way. Of course I used my position at TBS to ask the CTO if he wanted to be part of the discussion and for the CIO to share the invitation with the other CIOs. But now I know we could have done that anyway.
 

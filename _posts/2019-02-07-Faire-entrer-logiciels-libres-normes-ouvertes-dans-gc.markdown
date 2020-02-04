@@ -31,13 +31,17 @@ Je ne veux pas réécrire tout ce que j'ai fait en détails, parce qu'ils se ret
 - 2018-08 - Présentater au Sommet du logiciel libre d'Amérique du nord à Vancouver - [Première presentation](https://events.linuxfoundation.org/wp-content/uploads/2017/11/BoF-Using-OSS-to-Build-the-Digital-Workspace-for-the-Government-of-Canada-S%C3%A9bastien-Lemay-Treasury-Board-of-Canada-Secretariat.pdf) - [Deuxième presentation](https://events.linuxfoundation.org/wp-content/uploads/2017/11/Open-Standards-and-Open-Source-Software-in-the-Government-of-Canada-S%C3%A9bastien-Lemay-Treasury-Board-of-Canada-Secretariat.pdf)
 - 2018-09 - *Publication des [Normes numériques du GC](https://www.canada.ca/fr/gouvernement/fonctionpublique/modernisation/normes-numeriques-gouvernement-canada.html)
 - 2018-09 - *[Journée Ouvert en premier](https://canada-ca.github.io/ofd-joep/fr/journee-ouvert-en-premier-agenda.html)
+- 2018-10 - Rédaction des [Guides](https://github.com/canada-ca/open-source-logiciel-libre#logiciels-libres) pour l'utilisation des logiciels libres, la publication de code source ouvert et la contribution aux communautés de logiciels libres
 - 2018-12 - *Publication de la [Directive sur la gestion des technologies de l'information](https://www.tbs-sct.gc.ca/pol/doc-fra.aspx?id=15249#claC.2.3.8) avec des procédures obligatoires pour l'architecture intégrée
 - 2018-12 - *Publication du [Plan stratégique des opérations numériques de 2018 à 2022](https://www.canada.ca/fr/gouvernement/systeme/gouvernement-numerique/plan-strategique-operations-numerique-2018-2022.html)
-- 2019-01 - Diriger le [développement actif de l'ERO](https://github.com/canada-ca/ore-ero/projects/1) en collaboration avec la Ville de Montréal
+- 2019-01 - Diriger le développement actif de l'[Échange de ressources ouvert](https://github.com/canada-ca/ore-ero/) en collaboration avec la Ville de Montréal
+- 2019-02 - Fin de mon affectation au SCT avec l'équipe de GCtools
 
 \* Pas directement responsable mais j'ai contribué au contenu ou à l'organisation.
 
-Le Livre blanc Ouvert en premier est présentement dans les dernières phases d'approbations et devrait être publié bientôt (j'espère). Le SCT a maintenant une équipe (Guillaume Charest) qui travaille sur le dossier des logiciels libres. Quand je suis arrivé, il n'y avait personne officiellement. Je lui laisse beaucoup de pression afin continuer le travail nécessaire pour clarifier le côté légal et approvisionnement. Bien sur je ne vais pas disparaître, je retourne simplement à Patrimoine Canadien et je vais continuer d'être actif dans la communauté. 
+Le Livre blanc Ouvert en premier est présentement dans les dernières phases d'approbations et devrait être publié bientôt (j'espère). Le SCT a maintenant une équipe (Guillaume Charest) qui travaille sur le dossier des logiciels libres. Quand je suis arrivé, il n'y avait personne officiellement. Je lui laisse beaucoup de pression afin continuer le travail nécessaire pour clarifier le côté légal et approvisionnement. Bien sur je ne vais pas disparaître, je retourne simplement à Patrimoine Canadien et je vais continuer d'être actif dans la communauté.
+
+Mise à jour : En janvier 2020, le SCT a publié le [Livre blanc Ouvert en premier](https://www.canada.ca/fr/gouvernement/systeme/gouvernement-numerique/logiciels-libres/livre-blanc-ouvert-premier.html) et les guides pour l'[utilisation de logiciels libres](https://www.canada.ca/fr/gouvernement/systeme/gouvernement-numerique/logiciels-libres/guide-pour-lutilisation-de-logiciels-libres.html), la [publication de code source ouvert](https://www.canada.ca/fr/gouvernement/systeme/gouvernement-numerique/logiciels-libres/guide-pour-la-publication-du-code-source-libre.html) et la [contribution aux logiciels libres](https://www.canada.ca/fr/gouvernement/systeme/gouvernement-numerique/logiciels-libres/guide-de-contribution-aux-logiciels-libres.html).
 
 ## Une communauté active
 
