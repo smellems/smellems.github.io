@@ -8,7 +8,7 @@ jobs:
     steps:
     - uses: actions/github-script@v4.0.2
       with:
-          github-token: ${{secrets.GITHUB_TOKEN}}
+          github-token: ${{secrets.PAGES_TOKEN}}
           script: |
             github.repos.requestPagesBuild({
               owner: context.repo.owner,
